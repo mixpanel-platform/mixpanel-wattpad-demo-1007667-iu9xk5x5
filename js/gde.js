@@ -220,7 +220,7 @@ $(document).on('ready', function() {
             }, jqlParams
         ).done(function(data) {
             var trimmedData = []
-            for (var i = 0; i < 12; i++) {
+            for (var i = 1; i < 12; i++) {
                 trimmedData.push(data[i])
             }
             console.log('query finished!')
